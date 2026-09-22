@@ -37,7 +37,7 @@
 |------|------|--------|
 | [**rag-project**](https://github.com/xieyn9988/rag-project) ⭐ | **基于 LangChain + ChromaDB + BGE + DeepSeek 构建的电商客服 RAG 系统**，支持售后政策、商品信息、物流规则的智能问答。提供 Vue3 全栈前端 + FastAPI 接口 + Streaming 流式输出 + 上传资料（现传现用），Docker 一键部署。 | Python, LangChain, ChromaDB, FastAPI, Docker |
 | [**auto-bill-check-saas**](https://github.com/xieyn9988/auto-bill-check-saas) 🌟 | **基于 FastAPI + Vue3 + MySQL + Pandas + Docker 的多数据源电商订单自动对账 SaaS 平台（全栈）**。支持上传 CSV / Excel / TXT 表 / pdf 表，下拉选择 MySQL 表 混合对账，自动识别差异并生成财务可用的 Excel 报表。**Docker 一键部署** | FastAPI, Vue3, MySQL, Pandas, Docker |
-| [douyin-monitor](https://github.com/xieyn9988/douyin-monitor) | **基于 Playwright + Whisper + DeepSeek 的抖音内容智能分析系统**。自动采集指定账号视频 → LLM 快速分析 → Agent 智能决策 → ASR 深度转写 → 结构化标签输出，为音乐营销决策提供数据支持。 | Python, Playwright |
+| [douyin-monitor](https://github.com/xieyn9988/douyin-monitor) | **基于 Playwright + Whisper + DeepSeek 的抖音内容智能分析系统**。自动采集指定账号视频 → LLM 快速分析 → Agent 智能决策 → ASR 深度转写 → 结构化标签输出，为音乐营销决策提供数据支持。 | Python, Playwright,playwright-stealth，yt-dlp，faster-whisper，DeepSeek |
 
 ---
 
