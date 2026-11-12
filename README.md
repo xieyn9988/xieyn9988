@@ -42,6 +42,7 @@
 | [auto-bill-check-saas](https://github.com/xieyn9988/auto-bill-check-saas) | 基于 FastAPI + Vue3 + MySQL + Pandas + Docker 的多数据源电商订单自动对账 SaaS 平台（全栈）。支持上传 CSV / Excel / TXT 表 / pdf 表，下拉选择 MySQL 表 混合对账，自动识别差异并生成财务可用的 Excel 报表。Docker 一键部署 | FastAPI, Vue3, MySQL, Pandas, Docker |
 | [douyin-monitor](https://github.com/xieyn9988/douyin-monitor) | 基于 Playwright + Whisper + DeepSeek 的抖音内容智能分析系统。自动采集指定账号视频 → LLM 快速分析 → Agent 智能决策 → ASR 深度转写 → 结构化标签输出，为音乐营销决策提供数据支持。 | Python, Playwright, playwright-stealth, yt-dlp, faster-whisper, DeepSeek |
 | [cross-border-ai-data-site](https://github.com/xieyn9988/cross-border-ai-data-site) | 面向跨境电商中小卖家的 AI 数据分析站点。覆盖订单 / 库存 / 营销 / 财务 / 决策 / 客户 六大类业务，16 个分析场景，一次上传 CSV，一键得到业务洞察。字段驱动架构，支持多文件上传、多币种折算、结果可视化、移动端适配。 | Python, FastAPI, Pandas, 原生 JS |
+| **乡村文旅票务系统**<br>([https://github.com/xieyn9988/tourism-mp](https://github.com/xieyn9988/tourism-mp)) | **基于 FastAPI + SQLAlchemy 2.0 + Gradio 的多商户票务与资金分账系统（POC）。**<br>• **资金安全**：采用 HMAC-SHA256 接口签名防抓包篡改，底层条件 UPDATE 实现无锁化并发防重。<br>• **复杂业务**：实现“门票前置拦截”、“部分核销退款（扣除10%手续费）”及“离园资金强制分账”闭环。<br>• **极客测试**：编写 Pytest 自动化防御测试，用多线程并发压测验证资金绝对安全。 | FastAPI, SQLAlchemy, Pytest, Gradio |
 
 ---
 
